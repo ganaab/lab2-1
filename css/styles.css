@@ -5,3 +5,67 @@
 /* reset CSS file to reset browser default styling to a consistent starting point */
 @import url(reset.css);
 
+title {
+
+}
+
+body {
+	margin: 10px;
+	background-image: url(../img/texture-light.png);
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+}
+
+p {
+	padding: 20px;
+}
+
+.content-box {
+	width: 75%;
+	background-color: #FFF;
+	margin: 0 auto;
+	box-shadow: 2px 2px 6px #555;
+}
+.name {
+	font-size: 150%;
+	float: left;
+	font-weight: bold;
+	color: #486466;
+}
+.name:hover {
+	color: #CCC;
+}
+
+.factory {
+	float: left;
+	margin-right: 20px;
+}
+
+nav ul {
+	background-color: #646512;
+	width: 95%;
+	border-radius: 5px;
+	margin: 0 auto;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav a {
+	display: inline-block;
+	padding: 10px;
+	color: #FFF;
+	font-weight: bold;
+	font-size: 110%;
+}
+
+nav a:link,
+nav a:visited {
+	text-decoration: none;
+}
+
+nav a:hover {
+	background-color: #FF9A40;
+	border-radius: 5px;
+}
